@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command WPFCourse</Text>
+    <Description>Some description for WPFCourse</Description>
+    <Assembly>WPFCourse.dll</Assembly>
+    <FullClassName>WPFCourse.Command</FullClassName>
+    <ClientId>eff5aa97-bfcf-474f-9409-2a116893e15a</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application WPFCourse</Name>
+    <Assembly>WPFCourse.dll</Assembly>
+    <FullClassName>WPFCourse.App</FullClassName>
+    <ClientId>7a5a8db5-5ff2-458f-9863-f7196cd2fedf</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
